@@ -1,84 +1,88 @@
 body {
-  background: linear-gradient(to right, red, #e3edf3);
+    background-image: url(back.jpg);
+    background-size: cover;
+    background-attachment: scroll;
 }
 
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #503c2c;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-item: center;
+    font-family: monospace;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #503c2c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .calculator {
-  width: 440px;
-  padding: 20px;
-  border-radius: 5px;
-  margin: 20px auto;
-  font-size: 16px;
-  background-color: #333333;
+    width: 440px;
+    height: 80vh;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    font-size: 16px;
+    background-color: linear-gradient(to left top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 }
 
 .input {
-  width: 420px;
-  height: 50px;
-  border-radius: 0px;
-  border: 1px solid black;
-  background-color: #333333;
-  color: yellowgreen;
-  padding: 0 5px 0 5px;
-  margin: 0 0px 10px 0px;
-  font-size: 30px;
+    width: 420px;
+    height: 50px;
+    border-radius: 0px;
+    border: 1px solid black;
+    background-color: #cccfec;
+    color: rgb(164, 187, 230);
+    padding: 0 5px 0 5px;
+    margin: 50px 0px 10px 0px;
+    font-size: 30px;
 }
 
 .input:focus,
 .input:active {
-  border-color: #03a9f4;
-  box-shadow: 0 0 4px #03A9F4;
-  outline: none 0;
+    border: #fafbfc 2px groove;
+    box-shadow: 0 0 4px #e93a1b;
+    outline: none 0;
 }
 
 .button {
-  margin: 3px;
-  width: 63px;
-  border: 1px solid #0d0d0d;
-  height: 30px;
-  border-radius: 4px;
-  color: #d9d9d9;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  outline: none;
+    margin: 3px;
+    width: 63px;
+    border: 1px solid #0d0d0d;
+    height: 70px;
+    border-radius: 4px;
+    color: #d9d9d9;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    outline: none;
 }
 
 .mode {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .equal-sign {
-  background-color: rgb(90, 87, 90);
-  width: 133px;
+    background-color: rgb(90, 87, 90);
+    width: 133px;
 }
 
 .toggle-button {
-  border: none;
-  background-color: #858080;
-  cursor: pointer;
-  outline: none;
-  font-size: 1rem;
-  color: #fff;
-  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.35);
+    margin-bottom: 10px;
+    float: left;
+    background-color: transparent;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    font-style: oblique;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.35);
 }
 
 p {
-  margin-top: 0;
+    margin-top: 0;
 }
 
 button::-moz-focus-inner {
-  border-color: transparent;
+    border-color: transparent;
 }
