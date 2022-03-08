@@ -22,7 +22,6 @@ body {
     padding: 20px;
     border-radius: 5px;
     margin: 20px;
-    margin-left: -160px;
     font-size: 16px;
     background-color: rgba(0, 0, 0, 0.89);
 }
@@ -213,12 +212,12 @@ a {
 }
 
 .headrr {
-    position: absolute;
-    padding: 30px;
-    margin-left: 1200px;
+    position: fixed;
+    right: 0;
     writing-mode: vertical-rl;
+    padding: 20px;
     font-size: 120px;
     color: rgb(2, 0, 26);
     font-weight: bolder;
-    background-color: rgba(200, 200, 245, 0.555);
+    background-color: rgba(200, 200, 245, 0.438);
 }
